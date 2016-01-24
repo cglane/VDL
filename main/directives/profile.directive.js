@@ -6,7 +6,7 @@
       return {
         restrict: 'EA',
         transclue: true,
-        templateUrl: '/main/directives/views/profile.directive.html',
+        templateUrl: './main/directives/views/profile.directive.html',
         link: function (scope, element, attributes) {
 
 

@@ -6,7 +6,7 @@
       return {
         restrict: 'EA',
         transclue: true,
-        templateUrl: '/contact/views/contact.html',
+        templateUrl: './contact/views/contact.html',
         link: function (scope, element, attributes) {
 
 

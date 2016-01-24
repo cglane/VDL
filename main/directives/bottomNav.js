@@ -6,7 +6,7 @@
       return {
         restrict: 'EA',
         transclue: true,
-        templateUrl: '/main/directives/views/bottomNav.html',
+        templateUrl: './main/directives/views/bottomNav.html',
         link: function (scope, element, attributes) {
 
 

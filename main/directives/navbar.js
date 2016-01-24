@@ -6,7 +6,7 @@
       return {
         restrict: 'EA',
         transclue: true,
-        templateUrl: '/main/directives/views/navbar.html',
+        templateUrl: './main/directives/views/navbar.html',
         link: function (scope, element, attributes) {
 
 

@@ -84,11 +84,12 @@ angular
           $scope.showMenuClass = 'fade-out';
         }
       }
-      $scope.showContact = function(){
+      $scope.showContact = function(bool){
+        if(bool)
         $('.contact-wrapper').css('top','50px');
-      }
-      $scope.hideContact = function(){
-        $('.contact-wrapper').css('top','-500px');
+        else{
+          $('.contact-wrapper').css('top','-500px');
+        }
       }
 
 

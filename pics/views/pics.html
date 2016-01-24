@@ -4,7 +4,7 @@
     <span ng-click = "menu = !menu;showMenu(menu)"class = "hamburger-border"><span class="glyphicon glyphicon-menu-hamburger"></a></span></span>
         <h1>Featured Projects</h1>
       <ul class = 'featured-projects'>
-        <li ng-repeat = 'folder in albums'><span ui-sref="pics.expanded({album:folder})">{{folder}}</span><img ng-src="../../albums/{{folder}}/{{albumObject[folder][0]}}" alt="" /></li>
+        <li ng-repeat = 'folder in albums'><span ui-sref="pics.expanded({album:folder})">{{folder}}</span><img ng-src="../.././albums/{{folder}}/{{albumObject[folder][0]}}" alt="" /></li>
       </ul>
   </div>
     <div class="jumbotron sub-div-pic">
